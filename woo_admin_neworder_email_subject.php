@@ -1,3 +1,6 @@
+<?php
+
+
 //Custom WooCommerce admin New Order Subject Line
 //Display product categories in the subject line
 
