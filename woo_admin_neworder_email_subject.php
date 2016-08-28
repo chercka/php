@@ -25,4 +25,4 @@ function woo_admin_neworder_email_subject( $subject, $order ) {
     return ucwords($subject);
 }
 
-//new branch comments	
+//new branch comments and some more	
