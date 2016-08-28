@@ -1,8 +1,7 @@
 <?php
 
-
 //Custom WooCommerce admin New Order Subject Line
-//Display product categories in the subject line
+//Display comma-separated product categories in the subject line
 
 add_filter('woocommerce_email_subject_new_order', 'woo_admin_neworder_email_subject', 1, 2);
 
