@@ -24,3 +24,5 @@ function woo_admin_neworder_email_subject( $subject, $order ) {
     $subject = "New Order: " . implode(", ", $categories);
     return ucwords($subject);
 }
+
+//Adding some new comments down here
