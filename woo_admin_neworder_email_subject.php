@@ -23,6 +23,4 @@ function woo_admin_neworder_email_subject( $subject, $order ) {
     //Setup the subject variable as a list of order categories imploded and comma-separated
     $subject = "New Order: " . implode(", ", $categories);
     return ucwords($subject);
-}
-
-//Adding some new comments down here
+}	
